@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title><%= header %></title>
+    <style>
+      table {
+        border-spacing: 0;
+        border-collapse: collapse;
+      }
+      .header {
+        text-align: center;
+      }
+      .footer {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="pageHeader" class="header">
+      <img src="<%= logo %>" width="15%" /><br />
+      <h1><%= header %></h1>
+      <hr/>
+    </div>
+    <table border="1" align="center" width="100%">
+      <thead>
+        <tr>
+          <th>title</th>
+          <th>price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% fruits.forEach(function(fruit){ %>
+        <tr>
+          <td><%= fruit.title %></td>
+          <td><%= fruit.price %></td>
+        </tr>
+        <% }) %>
+      </tbody>
+    </table>
+    <div id="pageFooter" class="footer"><h4><%= footer %></h4></div>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "hapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "hapi": "^18.0.0",
+    "html-pdf": "^2.2.0",
+    "inert": "^5.1.2",
+    "nodemon": "^1.18.9",
+    "vision": "^5.4.4"
+  },
+  "scripts": {
+    "dev": "nodemon index.js"
+  }
+}

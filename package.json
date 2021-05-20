@@ -6,7 +6,7 @@
   "dependencies": {
     "ejs": "^2.6.1",
     "hapi": "^18.0.0",
-    "html-pdf": "^2.2.0",
+    "html-pdf": "^3.0.1",
     "inert": "^5.1.2",
     "nodemon": "^1.18.9",
     "vision": "^5.4.4"
